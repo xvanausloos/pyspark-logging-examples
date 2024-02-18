@@ -11,7 +11,7 @@ class SampleLoggingJob(Workload):
         self.logger.error("some error message")
         self.logger.fatal("some fatal message")
 
-        _cnt = self.spark.range(1000).count()
+        _cnt = self.spark.range(1000).count
 
 
 def entrypoint():  # pragma: no cover

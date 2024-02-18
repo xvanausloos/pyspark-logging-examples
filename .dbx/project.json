@@ -1,9 +1,0 @@
-{
-    "environments": {
-        "default": {
-            "profile": "DEFAULT",
-            "workspace_dir": "/Shared/dbx/pyspark_logging_examples",
-            "artifact_location": "dbfs:/Shared/dbx/projects/pyspark_logging_examples"
-        }
-    }
-}
